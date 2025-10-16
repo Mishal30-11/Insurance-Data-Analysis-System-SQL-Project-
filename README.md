@@ -1,10 +1,11 @@
-# 🏦 Insurance-Data-Analysis-System (SQL-Project)
+# 🏦 Insurance-Data-Analysis-System (SQL + Power BI Project)
+
+---
 
 ## 📌 Project Overview
-The **Insurance Management System** is a SQL-based project designed to manage customers, insurance products, policies, and premium payments.  
-It provides an efficient way to analyze data, generate insights, and streamline insurance policy management.  
 
-This project demonstrates **database design**, **SQL queries**, **joins**, **stored procedures**, **triggers** and **reporting** techniques.
+The **Insurance Management System** is a SQL and Power BI-based project designed to manage customers, insurance products, policies, and premium payments.  
+It provides an efficient way to analyze data, generate insights, and streamline insurance policy management.
 
 ---
 
@@ -13,33 +14,32 @@ Insurance companies often struggle with handling vast amounts of customer and po
 Manual processes lead to data redundancy, inconsistent records, and delays in premium tracking.  
 This project solves these challenges by building a **centralized SQL database** that automates policy management, premium calculations, and customer record maintenance — ensuring accuracy, reliability, and analytical insight.
 
----
 
-## ⚙️ Features
-
-👤 **Customer Management** – Store and manage customer details with unique identifiers.  
-📄 **Policy Management** – Track insurance policies and link them with specific customers.  
-💰 **Premium Tracking** – Monitor premium amounts and payments.  
-📊 **Data Analysis** – Analyze top policies, customer contributions, and premium collections.  
-🔗 **Relational Schema** – Proper use of primary keys, foreign keys, and constraints for data integrity.  
+### This project demonstrates:
+- 🧩 Database design and normalization  
+- 🧮 SQL queries, joins, and stored procedures  
+- ⚙️ Views, triggers, and constraints  
+- 📊 Power BI dashboards for analytical insights  
 
 ---
 
-## 🧱 Database Schema
-- **Tables:** `Customer`, `Policy`, `Premium`, `Product`  
-- **Relationships:** One-to-many between customers and policies  
-- **Constraints:** Primary Key, Foreign Key, Check constraints  
+## ✨ Features
 
+- 👤 **Customer Management** – Store customer details with unique identifiers  
+- 📑 **Policy Management** – Track insurance policies and linked products  
+- 💰 **Premium Tracking** – Analyze premium amounts, due dates, and payments  
+- 📊 **Data Analysis** – Insights on top products, customer contributions, gender split, and premium collections  
+- 🗄️ **Relational Schema** – Proper use of primary keys, foreign keys, and constraints  
 ---
 
-## 🧮 SQL Features Demonstrated
-- Aggregate Queries (SUM, AVG, COUNT)  
-- Nested Subqueries  
-- Joins (INNER, LEFT, RIGHT)  
-- Stored Procedures for monthly report generation  
+## 🗂️ Database Schema
+
+### 🧱 Entities & Relationships
+- **Customer** → Stores customer details  
+- **Product** → Insurance products (Child Plan, Investment, Pension, etc.)  
+- **Policy** → Policies linked to customers and products  
 
 ---
-
 ## 🧰 Tools Used
 | Category | Tools |
 |-----------|--------|
@@ -49,24 +49,67 @@ This project solves these challenges by building a **centralized SQL database** 
 | Documentation | Markdown / Word |
 
 ---
----
 
-## ❓ Questions Answered
-- How many **active policies** are currently registered?  
-- What is the **average premium amount** by policy type?  
-- Which **agents** have issued the most policies?  
-- Which **customers** have the highest total premium value?  
-- What are the **most common claim reasons** or **policy types**?  
+## 📌 ER Diagram
+
+Here is the ER Diagram of the Insurance Management System:
+
+![ER Diagram](Images/ER_diagram.png)
 
 ---
 
-## 📊 Results
-- **Total active policies:** 1,250  
-- **Most popular policy:** Health Insurance (45% share)  
-- **Average annual premium:** ₹12,000  
-- **Top-performing agent:** Rajesh Kumar (120 policies)  
-- **Most common claim type:** Vehicle Damage  
+## 📌 Table Structure
 
+#### 🧾 Customer_details
+![Customer Table](images/Customer_table_structure.png)
+
+#### 🧾 Policy_details
+![Policy Table](images/Policy_table_structure.png)
+
+#### 🧾 Product_details
+![Product Table](images/Product_table_structure.png)
+
+---
+
+## 🛠️ SQL Scripts
+
+| Purpose | File Name |
+|----------|------------|
+| Database Schema | `create.sql` |
+| Sample Data | `insert.sql` |
+| Analytical Queries | `sample_queries.sql` |
+
+---
+
+## 📊 Power BI Dashboard
+
+The Power BI dashboard provides interactive insights such as:
+- Premium by customer  
+- Premium by product type  
+- Premium by gender split  
+- Premium distribution by city  
+
+---
+
+## 📈 Dashboard Preview
+
+Below is the snapshot of the Insurance Analysis Dashboard:
+
+![Dashboard Overview](powerbi/Dashboard_Overview.png)
+
+### 🔍 Key Insights
+- 💵 **Total Premium:** $122K  
+- 🌆 **Top City:** London contributes the highest share  
+- 🧒 **Top Product:** Child Plan dominates premium collection  
+- 👩‍💼 **Gender Split:** Male vs Female → 60% vs 40%  
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/insurance-management-system.git
 ---
 
 ## 🚀 Project Highlights
@@ -83,7 +126,7 @@ This project solves these challenges by building a **centralized SQL database** 
 ---
 
 ## 👨‍💻 Author
-**Developed by:** *[Your Name]*  
+**Developed by:** *[Daksha Mishal]*  
 📧 Email: your.email@example.com  
 📍 GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
 
