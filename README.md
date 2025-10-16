@@ -19,10 +19,9 @@ This project solves these challenges by building a **centralized SQL database** 
 
 👤 **Customer Management** – Store and manage customer details with unique identifiers.  
 📄 **Policy Management** – Track insurance policies and link them with specific customers.  
-💰 **Premium Tracking** – Monitor premium amounts, due dates, and payments.  
+💰 **Premium Tracking** – Monitor premium amounts and payments.  
 📊 **Data Analysis** – Analyze top policies, customer contributions, and premium collections.  
 🔗 **Relational Schema** – Proper use of primary keys, foreign keys, and constraints for data integrity.  
-⚡ **Advanced SQL** – Utilize views, joins, stored procedures, and triggers for automation.  
 
 ---
 
@@ -37,7 +36,6 @@ This project solves these challenges by building a **centralized SQL database** 
 - Aggregate Queries (SUM, AVG, COUNT)  
 - Nested Subqueries  
 - Joins (INNER, LEFT, RIGHT)  
-- Triggers for automatic premium updates  
 - Stored Procedures for monthly report generation  
 
 ---
@@ -45,7 +43,7 @@ This project solves these challenges by building a **centralized SQL database** 
 ## 🧰 Tools Used
 | Category | Tools |
 |-----------|--------|
-| Database | MySQL / Oracle |
+| Database | MySQL |
 | Querying | SQL |
 | Visualization | Power BI / Excel |
 | Documentation | Markdown / Word |
