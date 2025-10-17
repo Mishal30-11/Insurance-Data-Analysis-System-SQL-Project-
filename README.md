@@ -127,6 +127,6 @@ Below is the snapshot of the Insurance Analysis Dashboard:
 
 ## 👨‍💻 Author
 **Developed by:** *[Daksha Mishal]*  
-📍 GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
+📍 GitHub: [YourGitHubUsername](https://github.com/Mishal30-11)
 
 
