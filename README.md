@@ -61,7 +61,7 @@ Here is the ER Diagram of the Insurance Management System:
 ## 📌 Table Structure
 
 #### 🧾 Customer_details
-![Customer Table](images/Customer_table_structure.png)
+![Customer Table](Images/Customer_table_structure.png)
 
 #### 🧾 Policy_details
 ![Policy Table](images/Policy_table_structure.png)
