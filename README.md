@@ -64,10 +64,10 @@ Here is the ER Diagram of the Insurance Management System:
 ![Customer Table](Images/Customer_table_structure.png)
 
 #### 🧾 Policy_details
-![Policy Table](images/Policy_table_structure.png)
+![Policy Table](Images/Policy_table_structure.png)
 
 #### 🧾 Product_details
-![Product Table](images/Product_table_structure.png)
+![Product Table](Images/Product_table_structure.png)
 
 ---
 
